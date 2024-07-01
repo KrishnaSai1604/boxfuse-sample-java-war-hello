@@ -11,10 +11,12 @@
          
          <properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://13.234.232.175:9000/</sonar.host.url>
+		<sonar.host.url>http://13.127.239.200:9000/</sonar.host.url>
 		<java.version>11</java.version>
                 <maven.compiler.source>${java.version}</maven.compiler.source>
                 <maven.compiler.target>${java.version}</maven.compiler.target>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>krishnasai</sonar.password>
 
 	</properties>
     <dependencies>
@@ -28,9 +30,9 @@
     <build>
         <plugins>
 		<plugin>
-                  <groupId>org.codehaus.mojo</groupId>
+                  <groupId>org.sonarsource.scanner.maven</groupId>
                   <artifactId>sonar-maven-plugin</artifactId>
-                  <version>3.0.2</version>
+                  <version>latest</version>
                 </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
