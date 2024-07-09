@@ -56,11 +56,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://13.235.17.13:8081/repository/sample-sanpshots/</url>
+            <url>http://13.232.226.194:8081/repository/sample-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexusRepo</id>
-            <url>http://13.235.17.13:8081/repository/sample-releases/</url>
+            <url>http://13.232.226.194:8081/repository/sample-releases/</url>
         </repository>
     </distributionManagement>
 </project>
